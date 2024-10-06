@@ -9,12 +9,9 @@ function App() {
   return (
     <>
       <div>
-        <h1>Flood Project</h1>
+        <h1>Flood Canada</h1>
       </div>
       <div className="card">
-        <p>
-          Welcome to our website!
-        </p>
       </div>
     </>
   )

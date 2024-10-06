@@ -5,12 +5,12 @@
 }
 
 .navbar {
-    height: 150px;
+    height: 120px;
     display:flex;
     justify-content:center;
     align-items:center;
-    font-size: 1.5rem;
-    position: sticky;
+    font-size: 1.6rem;
+    position:relative; 
     top: 0;
     z-index: 999;
 }
@@ -23,7 +23,8 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding-left: 20px;
+    padding-right:720px;
 }
 
 .fa-gem {
@@ -37,7 +38,9 @@
     text-align: center;
 }
 
-
+navbar_item {
+    height:80px;
+}
 
 .navbar_links {
     color:black;
@@ -45,6 +48,6 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     height: 100%;
 }
