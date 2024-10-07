@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flood project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
-    <head>
-        <link rel="stylesheet" href="styles.css" />
-      </head>
     <nav class="navbar">
       <div class="navbar_container"> 
         <a href="/" id ="navbar_logo"><img src="locationlogo.png" width ="70" /></a>
@@ -12,11 +14,25 @@
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
+        <ul class ="navbar_menu">
+          <li class="navbar_item">
+            <a href="/" class="navbar_links"> Homepage </a>
+          </li>
+          <li class="navbar_item">
+            <a href="/description.html" class="navbar_links"> Description </a>
+          </li>
+          <li class="navbar_item">
+            <a href="/map.html" class="navbar_links"> Map </a>
+          </li>
+        </ul>
 
       </div>
     </nav>
-    
-    <script type="module" src="/src/map.jsx"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/maps.jsx"></script>
+
+      </div>
+    </nav>
 
     <br>
     <br>

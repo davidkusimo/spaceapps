@@ -29,7 +29,7 @@ const App = () => {
           his peers as a class representative.
         </p>
       ),
-      image: '/images/jeel.jpg',
+      image: '/jeel.jpeg',
     },
     {
       name: 'David Kusimo',
@@ -41,13 +41,7 @@ const App = () => {
             problem-solving, and emerging fields like AI and cybersecurity.
         </p>
       ),
-      image: '/images/david.jpg',
-    },
-    {
-      name: 'Ocean Yu',
-      role: 'UI/UX Designer',
-      description: 'Ocean is a skilled UI/UX Designer dedicated to crafting intuitive user experiences and visually appealing interfaces, ensuring a seamless interaction for users.',
-      image: '/images/ocean.jpg',
+      image: '/david.jpeg',
     },
     {
       name: 'Ben Nguyen',
@@ -62,7 +56,7 @@ const App = () => {
             including chatbot development.
         </p>
       ),
-      image: '/images/ben.jpg',
+      image: '/ben.jpeg',
     }
   ];
 
